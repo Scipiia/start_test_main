@@ -1,0 +1,55 @@
+.hero
+	&-block
+		display: flex
+		align-items: center
+	&-image
+		display: flex
+		&__men
+			flex-basis: 50%
+	&-text
+		margin-left: 100px
+		display: block
+		text-align: left
+		&__title
+			font-size: 24px
+			font-weight: 400
+			line-height: 20.11px
+			text-transform: uppercase
+			&::after
+				content: '-'
+				display: block
+				width: 50px
+				height: 3px
+				position: absolute
+				color: $after-color
+			&:hover
+				&::after
+					content: ''
+					display: block
+					width: 100%
+					height: 2px
+					background-color: $after-color
+					position: relative
+					transition: 0.5s
+		&__subtitle
+			margin-top: 30px
+			font-size: 11px
+			font-weight: 400
+			line-height: 16px
+			max-width: 400px
+			&__two
+				margin-top: 15px
+		&__button
+			margin-top: 40px
+			padding: 6px 20px
+			font-size: 9px
+			font-weight: 700
+			line-height: 20.11px
+			text-transform: uppercase
+			color: $text-color
+			border: 1ps solid $button-color
+			background-color: $button-color
+			border-radius: 5px
+
+		
+	

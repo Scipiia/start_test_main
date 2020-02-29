@@ -1,0 +1,77 @@
+.services
+	&-block
+	background-color: $services-slick-bacgraund
+	&-title
+		font-size: 40px
+		font-weight: 400
+		line-height: 26px
+		text-transform: uppercase
+		color: $title-color
+		text-align: center
+		padding-bottom: 55px
+		padding-top: 55px
+		background-color: $services-backgraund
+		&::after
+			content: ''
+			display: inline-block
+			vertical-align: right
+			width: 30%
+			height: 2px
+			background-color: $text-color
+			position: relative
+			margin-left: 45px
+		&::before
+			content: ''
+			display: inline-block
+			vertical-align: right
+			width: 30%
+			height: 2px
+			background-color: $text-color
+			position: relative
+			margin-right: 45px
+	.slick
+		position: relative
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 335px
+		height: 554px
+		
+		margin:  auto
+		background-color: $text-hover
+		&-item
+			display: flex
+			align-items: center
+			flex-direction: column
+			&__image
+				margin-left: 40px
+				align-items: center
+				margin: auto
+			&__title
+				margin-top: 50px
+				font-size: 24px
+				font-weight: 700
+				line-height: 26px
+				text-transform: uppercase
+				color: $title-color
+			&__subtitle
+				margin-top: 20px
+				text-align: center
+				font-size: 14px
+				font-weight: 400
+				line-height: 18px
+				color: $title-color
+				max-width: 300px
+			&__button
+				margin-top: 30px
+				font-size: 12px
+				font-weight: 400
+				line-height: 18px
+				text-transform: uppercase
+				color: $title-color	
+				background-color: $button-backgraund-services
+				border-radius: 5px
+				padding: 10px 30px
+				border: 1px solid $button-backgraund-services
+				
+			
